@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52C38DAF2AE35F76005AACCE /* fantasy_helper_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C38DAE2AE35F76005AACCE /* fantasy_helper_appApp.swift */; };
+		52C38DB12AE35F76005AACCE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C38DB02AE35F76005AACCE /* ContentView.swift */; };
+		52C38DB32AE35F79005AACCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C38DB22AE35F79005AACCE /* Assets.xcassets */; };
+		52C38DB62AE35F79005AACCE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52C38DB52AE35F79005AACCE /* Preview Assets.xcassets */; };
+		52C38DC02AE35F79005AACCE /* fantasy_helper_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C38DBF2AE35F79005AACCE /* fantasy_helper_appTests.swift */; };
+		52C38DCA2AE35F79005AACCE /* fantasy_helper_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C38DC92AE35F79005AACCE /* fantasy_helper_appUITests.swift */; };
+		52C38DCC2AE35F79005AACCE /* fantasy_helper_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C38DCB2AE35F79005AACCE /* fantasy_helper_appUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52C38DBC2AE35F79005AACCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C38DA32AE35F76005AACCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C38DAA2AE35F76005AACCE;
+			remoteInfo = "fantasy-helper-app";
+		};
+		52C38DC62AE35F79005AACCE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52C38DA32AE35F76005AACCE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52C38DAA2AE35F76005AACCE;
+			remoteInfo = "fantasy-helper-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52C38DAB2AE35F76005AACCE /* fantasy-helper-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fantasy-helper-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C38DAE2AE35F76005AACCE /* fantasy_helper_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasy_helper_appApp.swift; sourceTree = "<group>"; };
+		52C38DB02AE35F76005AACCE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		52C38DB22AE35F79005AACCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		52C38DB52AE35F79005AACCE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		52C38DBB2AE35F79005AACCE /* fantasy-helper-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fantasy-helper-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C38DBF2AE35F79005AACCE /* fantasy_helper_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasy_helper_appTests.swift; sourceTree = "<group>"; };
+		52C38DC52AE35F79005AACCE /* fantasy-helper-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fantasy-helper-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52C38DC92AE35F79005AACCE /* fantasy_helper_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasy_helper_appUITests.swift; sourceTree = "<group>"; };
+		52C38DCB2AE35F79005AACCE /* fantasy_helper_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fantasy_helper_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52C38DA82AE35F76005AACCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DB82AE35F79005AACCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DC22AE35F79005AACCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52C38DA22AE35F76005AACCE = {
+			isa = PBXGroup;
+			children = (
+				52C38DAD2AE35F76005AACCE /* fantasy-helper-app */,
+				52C38DBE2AE35F79005AACCE /* fantasy-helper-appTests */,
+				52C38DC82AE35F79005AACCE /* fantasy-helper-appUITests */,
+				52C38DAC2AE35F76005AACCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52C38DAC2AE35F76005AACCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52C38DAB2AE35F76005AACCE /* fantasy-helper-app.app */,
+				52C38DBB2AE35F79005AACCE /* fantasy-helper-appTests.xctest */,
+				52C38DC52AE35F79005AACCE /* fantasy-helper-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52C38DAD2AE35F76005AACCE /* fantasy-helper-app */ = {
+			isa = PBXGroup;
+			children = (
+				52C38DAE2AE35F76005AACCE /* fantasy_helper_appApp.swift */,
+				52C38DB02AE35F76005AACCE /* ContentView.swift */,
+				52C38DB22AE35F79005AACCE /* Assets.xcassets */,
+				52C38DB42AE35F79005AACCE /* Preview Content */,
+			);
+			path = "fantasy-helper-app";
+			sourceTree = "<group>";
+		};
+		52C38DB42AE35F79005AACCE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				52C38DB52AE35F79005AACCE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		52C38DBE2AE35F79005AACCE /* fantasy-helper-appTests */ = {
+			isa = PBXGroup;
+			children = (
+				52C38DBF2AE35F79005AACCE /* fantasy_helper_appTests.swift */,
+			);
+			path = "fantasy-helper-appTests";
+			sourceTree = "<group>";
+		};
+		52C38DC82AE35F79005AACCE /* fantasy-helper-appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				52C38DC92AE35F79005AACCE /* fantasy_helper_appUITests.swift */,
+				52C38DCB2AE35F79005AACCE /* fantasy_helper_appUITestsLaunchTests.swift */,
+			);
+			path = "fantasy-helper-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52C38DAA2AE35F76005AACCE /* fantasy-helper-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C38DCF2AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-app" */;
+			buildPhases = (
+				52C38DA72AE35F76005AACCE /* Sources */,
+				52C38DA82AE35F76005AACCE /* Frameworks */,
+				52C38DA92AE35F76005AACCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fantasy-helper-app";
+			productName = "fantasy-helper-app";
+			productReference = 52C38DAB2AE35F76005AACCE /* fantasy-helper-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52C38DBA2AE35F79005AACCE /* fantasy-helper-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C38DD22AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-appTests" */;
+			buildPhases = (
+				52C38DB72AE35F79005AACCE /* Sources */,
+				52C38DB82AE35F79005AACCE /* Frameworks */,
+				52C38DB92AE35F79005AACCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C38DBD2AE35F79005AACCE /* PBXTargetDependency */,
+			);
+			name = "fantasy-helper-appTests";
+			productName = "fantasy-helper-appTests";
+			productReference = 52C38DBB2AE35F79005AACCE /* fantasy-helper-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		52C38DC42AE35F79005AACCE /* fantasy-helper-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52C38DD52AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-appUITests" */;
+			buildPhases = (
+				52C38DC12AE35F79005AACCE /* Sources */,
+				52C38DC22AE35F79005AACCE /* Frameworks */,
+				52C38DC32AE35F79005AACCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52C38DC72AE35F79005AACCE /* PBXTargetDependency */,
+			);
+			name = "fantasy-helper-appUITests";
+			productName = "fantasy-helper-appUITests";
+			productReference = 52C38DC52AE35F79005AACCE /* fantasy-helper-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52C38DA32AE35F76005AACCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					52C38DAA2AE35F76005AACCE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					52C38DBA2AE35F79005AACCE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52C38DAA2AE35F76005AACCE;
+					};
+					52C38DC42AE35F79005AACCE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 52C38DAA2AE35F76005AACCE;
+					};
+				};
+			};
+			buildConfigurationList = 52C38DA62AE35F76005AACCE /* Build configuration list for PBXProject "fantasy-helper-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52C38DA22AE35F76005AACCE;
+			productRefGroup = 52C38DAC2AE35F76005AACCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52C38DAA2AE35F76005AACCE /* fantasy-helper-app */,
+				52C38DBA2AE35F79005AACCE /* fantasy-helper-appTests */,
+				52C38DC42AE35F79005AACCE /* fantasy-helper-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52C38DA92AE35F76005AACCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C38DB62AE35F79005AACCE /* Preview Assets.xcassets in Resources */,
+				52C38DB32AE35F79005AACCE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DB92AE35F79005AACCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DC32AE35F79005AACCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52C38DA72AE35F76005AACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C38DB12AE35F76005AACCE /* ContentView.swift in Sources */,
+				52C38DAF2AE35F76005AACCE /* fantasy_helper_appApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DB72AE35F79005AACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C38DC02AE35F79005AACCE /* fantasy_helper_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52C38DC12AE35F79005AACCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52C38DCA2AE35F79005AACCE /* fantasy_helper_appUITests.swift in Sources */,
+				52C38DCC2AE35F79005AACCE /* fantasy_helper_appUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52C38DBD2AE35F79005AACCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C38DAA2AE35F76005AACCE /* fantasy-helper-app */;
+			targetProxy = 52C38DBC2AE35F79005AACCE /* PBXContainerItemProxy */;
+		};
+		52C38DC72AE35F79005AACCE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52C38DAA2AE35F76005AACCE /* fantasy-helper-app */;
+			targetProxy = 52C38DC62AE35F79005AACCE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		52C38DCD2AE35F79005AACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52C38DCE2AE35F79005AACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52C38DD02AE35F79005AACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fantasy-helper-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52C38DD12AE35F79005AACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"fantasy-helper-app/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		52C38DD32AE35F79005AACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasy-helper-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fantasy-helper-app";
+			};
+			name = Debug;
+		};
+		52C38DD42AE35F79005AACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fantasy-helper-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/fantasy-helper-app";
+			};
+			name = Release;
+		};
+		52C38DD62AE35F79005AACCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fantasy-helper-app";
+			};
+			name = Debug;
+		};
+		52C38DD72AE35F79005AACCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.project.fantasy-helper-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "fantasy-helper-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52C38DA62AE35F76005AACCE /* Build configuration list for PBXProject "fantasy-helper-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C38DCD2AE35F79005AACCE /* Debug */,
+				52C38DCE2AE35F79005AACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C38DCF2AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C38DD02AE35F79005AACCE /* Debug */,
+				52C38DD12AE35F79005AACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C38DD22AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C38DD32AE35F79005AACCE /* Debug */,
+				52C38DD42AE35F79005AACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52C38DD52AE35F79005AACCE /* Build configuration list for PBXNativeTarget "fantasy-helper-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52C38DD62AE35F79005AACCE /* Debug */,
+				52C38DD72AE35F79005AACCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52C38DA32AE35F76005AACCE /* Project object */;
+}
