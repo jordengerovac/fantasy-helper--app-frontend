@@ -133,15 +133,36 @@ struct ContentView: View {
     }
     
     func getPlayers() async throws -> [Player] {
-        let endpoint = "http://localhost:4000/players"
+        let endpoint = (ProcessInfo.processInfo.environment["API_BASE_URL"] ?? "http://localhost:4000") + "/graphql"
         
         // Using url string to create URL object
         guard let url = URL(string: endpoint) else {
             throw FantasyHelperError.invalidURL
         }
         
+        var request = URLRequest(url: url)
+        request.setValue("application/json", forHTTPHeaderField: "Content-Type")
+        request.httpMethod = "POST"
+        let query =
+            """
+            query getAllPlayers {
+                allPlayers {
+                    id
+                    name
+                    team
+                    position
+                    type
+                    gamesPlayed
+                }
+            }
+            """
+        let payload = Payload(query: query)
+        let encoder = JSONEncoder()
+        let requestData = try encoder.encode(payload)
+        request.httpBody = requestData
+        
         // Sending http request
-        let (data, response) = try await URLSession.shared.data(from: url)
+        let (data, response) = try await URLSession.shared.data(for: request)
         
         // Casting response as HTTPURLResponse
         guard let response = response as? HTTPURLResponse, response.statusCode == 200 else {
@@ -152,15 +173,15 @@ struct ContentView: View {
         do {
             let decoder = JSONDecoder()
             decoder.keyDecodingStrategy = .convertFromSnakeCase
-            let decodedData = try decoder.decode(PlayerData.self, from: data)
-            return decodedData.data.sorted(by: { $0.name < $1.name })
+            let decodedData = try decoder.decode(PlayerResponse.self, from: data)
+            return decodedData.data.allPlayers.sorted(by: { $0.name < $1.name })
         } catch {
             throw FantasyHelperError.invalidData
         }
     }
     
     func comparePlayers() async throws -> String {
-        let endpoint = "http://localhost:4000/players/compare/" + firstSelection + "/" + secondSelection
+        let endpoint = (ProcessInfo.processInfo.environment["API_BASE_URL"] ?? "http://localhost:4000") + "/players/compare/" + firstSelection + "/" + secondSelection
         let formattedEndpoint = endpoint.replacingOccurrences(of: " ", with: "%20", options: .literal, range: nil)
         
         // Using url string to create URL object
@@ -194,6 +215,17 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+// GraphQL Payload object
+struct Payload: Codable {
+    var variables: String = "{}"
+    let query: String
+}
+
+// GraphQL Player Response
+struct PlayerResponse: Decodable {
+    let data: PlayerData
+}
+
 // Player object
 struct Player: Codable, Identifiable {
     let id: String
@@ -205,8 +237,8 @@ struct Player: Codable, Identifiable {
 }
 
 // Received Player data from api
-struct PlayerData : Decodable {
-    let data: [Player]
+struct PlayerData : Codable {
+    let allPlayers: [Player]
 }
 
 
